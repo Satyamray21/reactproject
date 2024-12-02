@@ -8,6 +8,8 @@ import Layout from './Layout';
 import Home from './component/Home/Home';
 import About from './component/About/About';
 import Contact from './component/Contact/Contact';
+import LeetCodeProfileLink from './component/Leetcode/Leetcode';
+import LeetCode from './component/Leetcode/Leetcode';
 const router =createBrowserRouter([
   {
    path:'/',
@@ -24,6 +26,10 @@ const router =createBrowserRouter([
       {
         path:"contact",
         element: <Contact />
+      },
+      {
+        path : "Leetcode",
+        element :<LeetCode/>
       }
       
     ]

@@ -24,8 +24,8 @@ export default function Footer() {
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="/about" className="hover:underline">
-                                        About
+                                    <Link to="/Leetcode" className="hover:underline">
+                                        LeetCode
                                     </Link>
                                 </li>
                             </ul>
@@ -72,7 +72,7 @@ export default function Footer() {
                     <span className="text-sm text-gray-500 sm:text-center">
                         © 2023
                         <a href="https://hiteshchoudhary.com/" className="hover:underline">
-                            hiteshchoudhary
+                           Satyam Ray
                         </a>
                         . All Rights Reserved.
                     </span>
