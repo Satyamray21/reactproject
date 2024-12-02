@@ -4,11 +4,11 @@ import Header from './component/Header/Header'
 import Footer from './component/Footer/Footer'
 function Layout() {
   return (
-   <>
-   <Header />
-   <Outlet />
-   <Footer />
-   </>
+    <>
+    <Header />
+    <Outlet />
+    <Footer />
+    </>
   )
 }
 
